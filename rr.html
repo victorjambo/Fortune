@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fortune</title>    
+    <style type="text/css">
+      img.wp-smiley,
+      img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 .07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+      }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel='stylesheet' href='assets/css/styles.css' type='text/css' media='all' />
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext' type='text/css' media='all' />
+
+    <link rel='stylesheet' href='assets/css/bootstrap.css' type='text/css' media='all' />
+
+    <link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  </head>
+
+
+
+
+    <!-- #page -->
+    <!--  -->
+    <script type='text/javascript' src='assets/js/gprofiles.js'></script>
+    <script type='text/javascript'>
+      /* <![CDATA[ */
+      var WPGroHo = {"my_hash":""};
+      /* ]]> */
+    </script>
+    <script type='text/javascript' src='assets/js/wpgroho.js'></script>
+    <script>
+      //initialize and attach hovercards to all gravatars
+      jQuery( document ).ready( function( $ ) {
+      
+      	if (typeof Gravatar === "undefined"){
+      		return;
+      	}
+      
+      	if ( typeof Gravatar.init !== "function" ) {
+      		return;
+      	}			
+      
+      	Gravatar.profile_cb = function( hash, id ) {
+      		WPGroHo.syncProfileData( hash, id );
+      	};
+      	Gravatar.my_hash = WPGroHo.my_hash;
+      	Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+      });
+    </script>
+    <div style="display:none">
+    </div>
+    <script type='text/javascript' src='assets/js/Webkit.js'></script>
+    <script src="assets/js/w.js" type="text/javascript" async defer></script>
+    <script type="text/javascript">
+      _tkq = window._tkq || [];
+      _stq = window._stq || [];
+      _tkq.push(['storeContext', {'blog_id':'83315134','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+      _stq.push(['view', {'blog':'83315134','v':'wpcom','tz':'0','user_id':'0','post':'133','subd':'fortunedemo'}]);
+      _stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1oV0pFNEwueXFaVXlyMGwvVG9bYmZXaDJ1NmxaNzJ2cyYwTl85emxZLnVULS15OCV8TjJoQXhDcjclOThnNkQlZmJQQ2NSSlkxeEdkSCZHcDN1VkUuWUV8aVAld29xdW4xR0NGfEhWZz9Ifk41N0RkSTZzNnduPUxCYW94bj1xTURmWnBuemhlamZLb0RLZDM5UnpUST9TS1s4VXo5ME1+LTZBLiVbYy1MX3puSVVNdEcyeGdYP0p4JjB5QjB5NlJPYUtPd3hPZDRyVVZbNS5KLjNoRX5vTXZVdjFldTF4THRhZU8rdFZGSA=='}]);
+      _stq.push([ 'clickTrackerInit', '83315134', '133' ]);
+      	
+    </script>
+    <noscript><img src="assets/images/b.gif" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+    <script>
+      if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+      
+      	wpcom_mobile_user_agent_info.init();
+      	var mobileStatsQueryString = "";
+      	
+      	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+      		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+      	
+      	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+      		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+      	
+      	if( wpcom_mobile_user_agent_info.isIPad() )
+      		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+      
+      	if( "" != mobileStatsQueryString ) {
+      		new Image().src = document.location.protocol + 'assets/images/g.gif' + mobileStatsQueryString + '&baba=' + Math.random();
+      	}
+      	
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fortune</title>    
+    <style type="text/css">
+      img.wp-smiley,
+      img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 .07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+      }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel='stylesheet' href='assets/css/styles.css' type='text/css' media='all' />
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext' type='text/css' media='all' />
+
+    <link rel='stylesheet' href='assets/css/bootstrap.css' type='text/css' media='all' />
+
+    <link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  </head>
+
+  <body class="blog custom-background mp6 customizer-styles-applied group-blog hfeed has-sidebar highlander-enabled highlander-light infinite-scroll">
+    <div id="page" class="site">
+      <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+      <header id="masthead" class="site-header" role="banner" data-nav-title="Menu" style="height: auto;">
+        <div class="top-bar">
+          <div class="container clearfix">
+            <nav id="topbar-navigation" class="topbar-navigation pull-left" role="navigation">
+              <ul id="menu-top-menu" class="nav-bar l_tinynav1">
+                <li id="menu-item-128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-128"><a href="https://fortunedemo.wordpress.com/?demo">Home</a></li>
+                <li id="menu-item-277" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-277">
+                  <a href="#">Categories</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-275" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-275"><a href="https://fortunedemo.wordpress.com/category/announcements/?demo">Announcements</a></li>
+                    <li id="menu-item-274" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-274"><a href="https://fortunedemo.wordpress.com/category/events/?demo">Events</a></li>
+                    <li id="menu-item-276" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-276"><a href="https://fortunedemo.wordpress.com/category/travel/?demo">Travel</a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129"><a href="https://fortunedemo.wordpress.com/typography/?demo">Typography</a></li>
+                <li id="menu-item-130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-130">
+                  <a href="#">Pages</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a href="https://fortunedemo.wordpress.com/full-width/?demo">Full Width Template</a></li>
+                    <li id="menu-item-273" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-273"><a href="https://fortunedemo.wordpress.com/category/wordpress/?demo">Archive</a></li>
+                    <li id="menu-item-132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-132"><a href="https://fortunedemo.wordpress.com/?s=Dummy+text&amp;demo">Search Results</a></li>
+                    <li id="menu-item-131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131"><a href="https://fortunedemo.wordpress.com/abcde?demo">404 Page</a></li>
+                    <li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="https://fortunedemo.wordpress.com/galleries/?demo">Galleries</a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-309" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-309">
+                  <a href="https://theme.wordpress.com/themes/fortune/support/">Support</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-378" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-378"><a href="https://themesharbor.com/downloads/fortune/">Self-hosted version</a></li>
+                    <li id="menu-item-318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-318"><a target="_blank" href="https://www.youtube.com/playlist?list=PLsxz0tqOMIfZeZUhXGMFBvNBSVD8zftFF">Video Tutorials</a></li>
+                    <li id="menu-item-310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-310"><a href="http://premium-themes.forums.wordpress.com/forum/fortune">Support Forum</a></li>
+                    <li id="menu-item-311" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-311"><a href="http://tdwp.us/contacts/">Contact Us</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="mobile-menu">
+                <select id="tinynav1" class="tinynav tinynav1">
+                  <option>Menu</option>
+                  <option value="https://fortunedemo.wordpress.com/?demo">Home</option>
+                  <option value="#">Categories</option>
+                  <option value="https://fortunedemo.wordpress.com/category/announcements/?demo">- Announcements</option>
+                  <option value="https://fortunedemo.wordpress.com/category/events/?demo">- Events</option>
+                  <option value="https://fortunedemo.wordpress.com/category/travel/?demo">- Travel</option>
+                  <option value="https://fortunedemo.wordpress.com/typography/?demo">Typography</option>
+                  <option value="#">Pages</option>
+                  <option value="https://fortunedemo.wordpress.com/full-width/?demo">- Full Width Template</option>
+                  <option value="https://fortunedemo.wordpress.com/category/wordpress/?demo">- Archive</option>
+                  <option value="https://fortunedemo.wordpress.com/?s=Dummy+text&amp;demo">- Search Results</option>
+                  <option value="https://fortunedemo.wordpress.com/abcde?demo">- 404 Page</option>
+                  <option value="https://fortunedemo.wordpress.com/galleries/?demo">- Galleries</option>
+                  <option value="https://theme.wordpress.com/themes/fortune/support/">Support</option>
+                  <option value="https://themesharbor.com/downloads/fortune/">- Self-hosted version</option>
+                  <option value="https://www.youtube.com/playlist?list=PLsxz0tqOMIfZeZUhXGMFBvNBSVD8zftFF">- Video Tutorials</option>
+                  <option value="http://premium-themes.forums.wordpress.com/forum/fortune">- Support Forum</option>
+                  <option value="http://tdwp.us/contacts/">- Contact Us</option>
+                </select>
+              </div>
+            </nav>
+            <!-- #secondary-navigation -->
+            <div class="pull-right header-social">
+              <div class="social-list">
+                <ul id="menu-social-menu" class="menu-items list-unstyled clearfix">
+                  <li id="menu-item-108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108"><a href="https://www.facebook.com/" data-tip="Facebook" class="td-tooltip"><span class="screen-reader-text social-meta">Facebook</span></a></li>
+                  <li id="menu-item-107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107"><a href="https://twitter.com/TarasDashkevych" data-tip="Twitter" class="td-tooltip"><span class="screen-reader-text social-meta">Twitter</span></a></li>
+                  <li id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-109"><a href="https://plus.google.com/" data-tip="Google Plus" class="td-tooltip"><span class="screen-reader-text social-meta">Google Plus</span></a></li>
+                  <li id="menu-item-113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113"><a href="https://www.linkedin.com/" data-tip="LinkedIn" class="td-tooltip"><span class="screen-reader-text social-meta">LinkedIn</span></a></li>
+                  <li id="menu-item-110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="http://instagram.com/" data-tip="Instagram" class="td-tooltip"><span class="screen-reader-text social-meta">Instagram</span></a></li>
+                  <li id="menu-item-111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://www.youtube.com/" data-tip="YouTube" class="td-tooltip"><span class="screen-reader-text social-meta">YouTube</span></a></li>
+                  <li id="menu-item-112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112"><a href="mailto:someone@example.com" data-tip="Email Us" class="td-tooltip"><span class="screen-reader-text social-meta">Email Us</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- .header-social -->
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- .top-bar -->
+        <div id="header-inner" class="">
+          <div class="container clearfix site-header-inner">
+            <div class="site-branding pull-left">
+              <p class="site-title"><a href="https://fortunedemo.wordpress.com/?demo" rel="home">Fortune</a></p>
+              <p class="site-description">Fortune is a clean, very flexible and fully responsive WordPress Theme, suited for businesses or non-profit organizations</p>
+            </div>
+            <!-- .site-branding -->
+            <div class="pull-right main-header-links">
+              <nav id="site-navigation" class="main-navigation pull-left" role="navigation">
+                <ul id="menu-main-menu" class="nav-bar l_tinynav2">
+                  <li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-165"><a href="https://fortunedemo.wordpress.com/?demo">Home</a></li>
+                  <li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-240">
+                    <a href="https://fortunedemo.wordpress.com/meet-the-team/?demo">Team</a>
+                    <ul class="sub-menu">
+                      <li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="https://fortunedemo.wordpress.com/meet-the-team/alissa-ginter/?demo">Alissa Ginter</a></li>
+                      <li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242"><a href="https://fortunedemo.wordpress.com/meet-the-team/jason-durm/?demo">Jason Durm</a></li>
+                      <li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="https://fortunedemo.wordpress.com/meet-the-team/jessica-doe/?demo">Jessica Doe</a></li>
+                      <li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244"><a href="https://fortunedemo.wordpress.com/meet-the-team/robert-reus/?demo">Robert Reus</a></li>
+                    </ul>
+                  </li>
+                  <li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-266">
+                    <a href="https://fortunedemo.wordpress.com/our-services/?demo">Our Services</a>
+                    <ul class="sub-menu">
+                      <li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://fortunedemo.wordpress.com/our-services/architecture/?demo">Architecture</a></li>
+                      <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="https://fortunedemo.wordpress.com/our-services/design/?demo">Design</a></li>
+                      <li id="menu-item-270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-270"><a href="https://fortunedemo.wordpress.com/our-services/finance/?demo">Finance</a></li>
+                      <li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267"><a href="https://fortunedemo.wordpress.com/our-services/tutoring/?demo">Tutoring</a></li>
+                      <li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><a href="https://fortunedemo.wordpress.com/our-services/photography/?demo">Photography</a></li>
+                      <li id="menu-item-269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-269"><a href="https://fortunedemo.wordpress.com/our-services/party-planner/?demo">Party Planner</a></li>
+                    </ul>
+                  </li>
+                  <li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-135 current_page_item current_page_parent menu-item-164"><a href="https://fortunedemo.wordpress.com/blog/?demo">Blog</a></li>
+                  <li id="menu-item-212" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-212"><a href="https://fortunedemo.wordpress.com/testimonial/?demo">Testimonial</a></li>
+                  <li id="menu-item-314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-314">
+                    <a href="https://wordpress.com/theme/fortune/setup">Support</a>
+                    <ul class="sub-menu">
+                      <li id="menu-item-371" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-371"><a target="_blank" href="https://themesharbor.com/downloads/fortune/">Self-hosted version</a></li>
+                      <li id="menu-item-317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-317"><a target="_blank" href="https://www.youtube.com/playlist?list=PLsxz0tqOMIfZeZUhXGMFBvNBSVD8zftFF">Video Tutorials</a></li>
+                      <li id="menu-item-394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-394"><a href="https://wordpress.com/theme/fortune/setup">Documentation</a></li>
+                      <li id="menu-item-313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-313"><a href="http://premium-themes.forums.wordpress.com/forum/fortune">Support Forum</a></li>
+                      <li id="menu-item-312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-312"><a href="http://themesharbor.com/contacts/">Contact Us</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="mobile-menu">
+                  <select id="tinynav2" class="tinynav tinynav2">
+                    <option>Menu</option>
+                    <option value="https://fortunedemo.wordpress.com/?demo">Home</option>
+                    <option value="https://fortunedemo.wordpress.com/meet-the-team/?demo">Team</option>
+                    <option value="https://fortunedemo.wordpress.com/meet-the-team/alissa-ginter/?demo">- Alissa Ginter</option>
+                    <option value="https://fortunedemo.wordpress.com/meet-the-team/jason-durm/?demo">- Jason Durm</option>
+                    <option value="https://fortunedemo.wordpress.com/meet-the-team/jessica-doe/?demo">- Jessica Doe</option>
+                    <option value="https://fortunedemo.wordpress.com/meet-the-team/robert-reus/?demo">- Robert Reus</option>
+                    <option value="https://fortunedemo.wordpress.com/our-services/?demo">Our Services</option>
+                    <option value="https://fortunedemo.wordpress.com/our-services/architecture/?demo">- Architecture</option>
+                    <option value="https://fortunedemo.wordpress.com/our-services/design/?demo">- Design</option>
+                    <option value="https://fortunedemo.wordpress.com/our-services/finance/?demo">- Finance</option>
+                    <option value="https://fortunedemo.wordpress.com/our-services/tutoring/?demo">- Tutoring</option>
+                    <option value="https://fortunedemo.wordpress.com/our-services/photography/?demo">- Photography</option>
+                    <option value="https://fortunedemo.wordpress.com/our-services/party-planner/?demo">- Party Planner</option>
+                    <option value="https://fortunedemo.wordpress.com/blog/?demo">Blog</option>
+                    <option value="https://fortunedemo.wordpress.com/testimonial/?demo">Testimonial</option>
+                    <option value="https://wordpress.com/theme/fortune/setup">Support</option>
+                    <option value="https://themesharbor.com/downloads/fortune/">- Self-hosted version</option>
+                    <option value="https://www.youtube.com/playlist?list=PLsxz0tqOMIfZeZUhXGMFBvNBSVD8zftFF">- Video Tutorials</option>
+                    <option value="https://wordpress.com/theme/fortune/setup">- Documentation</option>
+                    <option value="http://premium-themes.forums.wordpress.com/forum/fortune">- Support Forum</option>
+                    <option value="http://themesharbor.com/contacts/">- Contact Us</option>
+                  </select>
+                </div>
+              </nav>
+              <!-- #site-navigation -->
+              <div class="header-search-container pull-right">
+                <a id="header-search-button" href="#"><span class="screen-reader-text">Search box</span></a>
+                <form method="get" class="header-searchform form-inline" action="https://fortunedemo.wordpress.com/" role="search">
+                  <div class="header-searchform-inner">
+                    <input type="text" id="s" class="field" placeholder="Search..." name="s" value="">
+                    <button type="submit" class="submit"><i class="fa fa-search"></i><span class="screen-reader-text">Search</span></button>
+                  </div>
+                  <!-- .header-searchform-inner -->
+                </form>
+                <!-- .header-searchform -->
+              </div>
+              <!-- .header-search-container -->
+            </div>
+            <!-- .main-header-links -->
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- #header-inner -->
+      </header>
+      <!-- #masthead -->
+      <div id="content" class="site-content">
+        <div class="container">
+          <div class="row">
+            <div id="primary" class="content-area col-lg-8 col-md-8">
+              <main id="main" class="site-main" role="main">
+                <article id="post-104" class="post-104 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-wordpress tag-announcement tag-panache">
+                  <div class="entry-secondary-meta">
+                    <div class="post-date"><a href="https://fortunedemo.wordpress.com/2011/09/20/sed-elit-leo-fringilla/?demo"><span class="day">20</span><span class="month">Sep</span></a></div>
+                  </div>
+                  <!-- .entry-date -->
+                  <header class="entry-header">
+                    <h2 class="entry-title"><a href="https://fortunedemo.wordpress.com/2011/09/20/sed-elit-leo-fringilla/?demo" rel="bookmark">This is a Sticky&nbsp;Post</a></h2>
+                    <div class="entry-meta">
+                      <span class="byline"> Posted by <span class="author vcard"><a class="url fn n" href="https://fortunedemo.wordpress.com/author/themedemos/?demo">Joan Smith</a></span></span><span class="cat-links"> in <a href="https://fortunedemo.wordpress.com/category/wordpress/?demo" rel="category tag">WordPress</a></span>    
+                    </div>
+                    <!-- .entry-meta -->
+                    <div class="entry-thumb">
+                      <a href="https://fortunedemo.wordpress.com/2011/09/20/sed-elit-leo-fringilla/?demo" class="thumb-link">
+                      <img width="760" height="300" src="https://fortunedemo.files.wordpress.com/2011/09/tbn_22.jpg?w=760&amp;h=300&amp;crop=1" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://fortunedemo.files.wordpress.com/2011/09/tbn_22.jpg?w=760&amp;h=300&amp;crop=1 760w, https://fortunedemo.files.wordpress.com/2011/09/tbn_22.jpg?w=150&amp;h=59&amp;crop=1 150w, https://fortunedemo.files.wordpress.com/2011/09/tbn_22.jpg?w=300&amp;h=118&amp;crop=1 300w, https://fortunedemo.files.wordpress.com/2011/09/tbn_22.jpg?w=768&amp;h=303&amp;crop=1 768w, https://fortunedemo.files.wordpress.com/2011/09/tbn_22.jpg?w=1024&amp;h=404&amp;crop=1 1024w" sizes="(max-width: 760px) 100vw, 760px" data-attachment-id="166" data-permalink="https://fortunedemo.wordpress.com/2011/09/20/sed-elit-leo-fringilla/tbn_22/" data-orig-file="https://fortunedemo.files.wordpress.com/2011/09/tbn_22.jpg" data-orig-size="1280,853" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nature" data-image-description="" data-medium-file="https://fortunedemo.files.wordpress.com/2011/09/tbn_22.jpg?w=300" data-large-file="https://fortunedemo.files.wordpress.com/2011/09/tbn_22.jpg?w=720">     </a><!-- .thumb-link -->
+                    </div>
+                    <!-- .entry-thumb -->
+                  </header>
+                  <!-- .entry-header -->
+                  <div class="entry-content">
+                    <p>This is an example of a sticky post. You can read more about them <a href="http://en.support.wordpress.com/posts/post-visibility/#sticky-posts">here</a>. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a ‘ready-made’ text to sing with the melody.</p>
+                    <div class="more-link-container"> <a href="https://fortunedemo.wordpress.com/2011/09/20/sed-elit-leo-fringilla/?demo" class="more-link">Read More <span class="screen-reader-text">“This is a Sticky&nbsp;Post”</span></a></div>
+                  </div>
+                  <!-- .entry-content -->
+                </article>
+                <!-- #post-## -->
+                <article id="post-208" class="post-208 post type-post status-publish format-standard has-post-thumbnail hentry category-events tag-fun tag-location tag-people tag-professional">
+                  <div class="entry-secondary-meta">
+                    <div class="post-date"><a href="https://fortunedemo.wordpress.com/2015/01/22/word-on-the-street/?demo"><span class="day">22</span><span class="month">Jan</span></a></div>
+                    <span class="comments-link"><a href="https://fortunedemo.wordpress.com/2015/01/22/word-on-the-street/?demo#comments">2</a></span><!-- .comments-link -->  
+                  </div>
+                  <!-- .entry-date -->
+                  <header class="entry-header">
+                    <h2 class="entry-title"><a href="https://fortunedemo.wordpress.com/2015/01/22/word-on-the-street/?demo" rel="bookmark">Word on the&nbsp;Street</a></h2>
+                    <div class="entry-meta">
+                      <span class="byline"> Posted by <span class="author vcard"><a class="url fn n" href="https://fortunedemo.wordpress.com/author/tarasdashkevych/?demo">Taras Dashkevych</a></span></span><span class="cat-links"> in <a href="https://fortunedemo.wordpress.com/category/events/?demo" rel="category tag">Events</a></span>   
+                    </div>
+                    <!-- .entry-meta -->
+                    <div class="entry-thumb">
+                      <a href="https://fortunedemo.wordpress.com/2015/01/22/word-on-the-street/?demo" class="thumb-link">
+                      <img width="760" height="300" src="https://fortunedemo.files.wordpress.com/2015/01/notebook_01.jpg?w=760&amp;h=300&amp;crop=1" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://fortunedemo.files.wordpress.com/2015/01/notebook_01.jpg?w=760&amp;h=300&amp;crop=1 760w, https://fortunedemo.files.wordpress.com/2015/01/notebook_01.jpg?w=150&amp;h=59&amp;crop=1 150w, https://fortunedemo.files.wordpress.com/2015/01/notebook_01.jpg?w=300&amp;h=118&amp;crop=1 300w, https://fortunedemo.files.wordpress.com/2015/01/notebook_01.jpg?w=768&amp;h=303&amp;crop=1 768w, https://fortunedemo.files.wordpress.com/2015/01/notebook_01.jpg?w=1024&amp;h=404&amp;crop=1 1024w" sizes="(max-width: 760px) 100vw, 760px" data-attachment-id="211" data-permalink="https://fortunedemo.wordpress.com/2015/01/22/word-on-the-street/processed-with-vscocam-with-f2-preset/" data-orig-file="https://fortunedemo.files.wordpress.com/2015/01/notebook_01.jpg" data-orig-size="1280,863" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1403115081&quot;,&quot;copyright&quot;:&quot;Copyright 2014. All rights reserved.&quot;,&quot;focal_length&quot;:&quot;4.12&quot;,&quot;iso&quot;:&quot;64&quot;,&quot;shutter_speed&quot;:&quot;0.0083333333333333&quot;,&quot;title&quot;:&quot;Processed with VSCOcam with f2 preset&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Cars" data-image-description="" data-medium-file="https://fortunedemo.files.wordpress.com/2015/01/notebook_01.jpg?w=300" data-large-file="https://fortunedemo.files.wordpress.com/2015/01/notebook_01.jpg?w=720">      </a><!-- .thumb-link -->
+                    </div>
+                    <!-- .entry-thumb -->
+                  </header>
+                  <!-- .entry-header -->
+                  <div class="entry-content">
+                    <p>A city is a relatively large and permanent human settlement. Although there is no agreement on how a city is distinguished from a town within general English language meanings, many cities have a particular administrative, legal, or historical status based on local law. Cities generally have complex systems for sanitation, utilities, land usage, housing, and transportation. </p>
+                    <div class="more-link-container"> <a href="https://fortunedemo.wordpress.com/2015/01/22/word-on-the-street/?demo" class="more-link">Read More <span class="screen-reader-text">“Word on the&nbsp;Street”</span></a></div>
+                  </div>
+                  <!-- .entry-content -->
+                </article>
+                <!-- #post-## -->
+                <article id="post-206" class="post-206 post type-post status-publish format-standard has-post-thumbnail hentry category-events tag-fun tag-location tag-nature tag-people">
+                  <div class="entry-secondary-meta">
+                    <div class="post-date"><a href="https://fortunedemo.wordpress.com/2015/01/20/moonlight-mountain-hike/?demo"><span class="day">20</span><span class="month">Jan</span></a></div>
+                    <span class="comments-link"><a href="https://fortunedemo.wordpress.com/2015/01/20/moonlight-mountain-hike/?demo#comments">1</a></span><!-- .comments-link --> 
+                  </div>
+                  <!-- .entry-date -->
+                  <header class="entry-header">
+                    <h2 class="entry-title"><a href="https://fortunedemo.wordpress.com/2015/01/20/moonlight-mountain-hike/?demo" rel="bookmark">Moonlight Mountain Hike</a></h2>
+                    <div class="entry-meta">
+                      <span class="byline"> Posted by <span class="author vcard"><a class="url fn n" href="https://fortunedemo.wordpress.com/author/tarasdashkevych/?demo">Taras Dashkevych</a></span></span><span class="cat-links"> in <a href="https://fortunedemo.wordpress.com/category/events/?demo" rel="category tag">Events</a></span>   
+                    </div>
+                    <!-- .entry-meta -->
+                    <div class="entry-thumb">
+                      <a href="https://fortunedemo.wordpress.com/2015/01/20/moonlight-mountain-hike/?demo" class="thumb-link">
+                      <img width="760" height="300" src="https://fortunedemo.files.wordpress.com/2015/01/fortune_08.jpg?w=760&amp;h=300&amp;crop=1" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://fortunedemo.files.wordpress.com/2015/01/fortune_08.jpg?w=760&amp;h=300&amp;crop=1 760w, https://fortunedemo.files.wordpress.com/2015/01/fortune_08.jpg?w=150&amp;h=59&amp;crop=1 150w, https://fortunedemo.files.wordpress.com/2015/01/fortune_08.jpg?w=300&amp;h=118&amp;crop=1 300w, https://fortunedemo.files.wordpress.com/2015/01/fortune_08.jpg?w=768&amp;h=303&amp;crop=1 768w, https://fortunedemo.files.wordpress.com/2015/01/fortune_08.jpg?w=1024&amp;h=404&amp;crop=1 1024w" sizes="(max-width: 760px) 100vw, 760px" data-attachment-id="163" data-permalink="https://fortunedemo.wordpress.com/build-your-business-with-us/fortune_08/" data-orig-file="https://fortunedemo.files.wordpress.com/2015/01/fortune_08.jpg" data-orig-size="1280,853" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Sky" data-image-description="" data-medium-file="https://fortunedemo.files.wordpress.com/2015/01/fortune_08.jpg?w=300" data-large-file="https://fortunedemo.files.wordpress.com/2015/01/fortune_08.jpg?w=720">      </a><!-- .thumb-link -->
+                    </div>
+                    <!-- .entry-thumb -->
+                  </header>
+                  <!-- .entry-header -->
+                  <div class="entry-content">
+                    <p>A mountain is a large landform that stretches above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper than a hill. Mountains are formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth. Mountains erode slowly through the action of rivers, weather conditions, and glaciers.</p>
+                    <div class="more-link-container"> <a href="https://fortunedemo.wordpress.com/2015/01/20/moonlight-mountain-hike/?demo" class="more-link">Read More <span class="screen-reader-text">“Moonlight Mountain Hike”</span></a></div>
+                  </div>
+                  <!-- .entry-content -->
+                </article>
+                <!-- #post-## -->
+                <article id="post-204" class="post-204 post type-post status-publish format-link hentry category-wordpress tag-features tag-formats post_format-post-format-link">
+                  <div class="entry-secondary-meta">
+                    <div class="post-date"><a href="https://fortunedemo.wordpress.com/2015/01/18/wordpress-com/?demo"><span class="day">18</span><span class="month">Jan</span></a></div>
+                  </div>
+                  <!-- .entry-date -->
+                  <div class="hentry-inner">
+                    <header class="entry-header">
+                      <h2 class="entry-title"><a href="http://wordpress.com/" rel="bookmark" target="_blank">WordPress.com</a></h2>
+                      <div class="entry-meta">
+                        <span class="byline"> Posted by <span class="author vcard"><a class="url fn n" href="https://fortunedemo.wordpress.com/author/tarasdashkevych/?demo">Taras Dashkevych</a></span></span><span class="cat-links"> in <a href="https://fortunedemo.wordpress.com/category/wordpress/?demo" rel="category tag">WordPress</a></span>     
+                      </div>
+                      <!-- .entry-meta -->
+                    </header>
+                    <!-- .entry-header -->
+                    <div class="entry-content">
+                      <p><a href="http://wordpress.com/" target="_blank">Open source WordPress</a> is the most popular online publishing platform, currently powering more than 20% of the web.</p>
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  <!-- .hentry-inner -->
+                </article>
+                <!-- #post-## -->
+                <article id="post-200" class="post-200 post type-post status-publish format-standard has-post-thumbnail hentry category-announcements tag-announcement tag-location">
+                  <div class="entry-secondary-meta">
+                    <div class="post-date"><a href="https://fortunedemo.wordpress.com/2015/01/15/we-have-moved-to-a-new-office/?demo"><span class="day">15</span><span class="month">Jan</span></a></div>
+                    <span class="comments-link"><a href="https://fortunedemo.wordpress.com/2015/01/15/we-have-moved-to-a-new-office/?demo#comments">3</a></span><!-- .comments-link --> 
+                  </div>
+                  <!-- .entry-date -->
+                  <header class="entry-header">
+                    <h2 class="entry-title"><a href="https://fortunedemo.wordpress.com/2015/01/15/we-have-moved-to-a-new-office/?demo" rel="bookmark">We Have Moved to a New&nbsp;Office</a></h2>
+                    <div class="entry-meta">
+                      <span class="byline"> Posted by <span class="author vcard"><a class="url fn n" href="https://fortunedemo.wordpress.com/author/tarasdashkevych/?demo">Taras Dashkevych</a></span></span><span class="cat-links"> in <a href="https://fortunedemo.wordpress.com/category/announcements/?demo" rel="category tag">Announcements</a></span>   
+                    </div>
+                    <!-- .entry-meta -->
+                    <div class="entry-thumb">
+                      <a href="https://fortunedemo.wordpress.com/2015/01/15/we-have-moved-to-a-new-office/?demo" class="thumb-link">
+                      <img width="760" height="300" src="https://fortunedemo.files.wordpress.com/2015/01/fortune_02.jpg?w=760&amp;h=300&amp;crop=1" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://fortunedemo.files.wordpress.com/2015/01/fortune_02.jpg?w=760&amp;h=300&amp;crop=1 760w, https://fortunedemo.files.wordpress.com/2015/01/fortune_02.jpg?w=150&amp;h=59&amp;crop=1 150w, https://fortunedemo.files.wordpress.com/2015/01/fortune_02.jpg?w=300&amp;h=118&amp;crop=1 300w, https://fortunedemo.files.wordpress.com/2015/01/fortune_02.jpg?w=768&amp;h=303&amp;crop=1 768w, https://fortunedemo.files.wordpress.com/2015/01/fortune_02.jpg?w=1024&amp;h=404&amp;crop=1 1024w" sizes="(max-width: 760px) 100vw, 760px" data-attachment-id="202" data-permalink="https://fortunedemo.wordpress.com/2015/01/15/we-have-moved-to-a-new-office/fortune_02/" data-orig-file="https://fortunedemo.files.wordpress.com/2015/01/fortune_02.jpg" data-orig-size="1280,673" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="New Location" data-image-description="" data-medium-file="https://fortunedemo.files.wordpress.com/2015/01/fortune_02.jpg?w=300" data-large-file="https://fortunedemo.files.wordpress.com/2015/01/fortune_02.jpg?w=720">      </a><!-- .thumb-link -->
+                    </div>
+                    <!-- .entry-thumb -->
+                  </header>
+                  <!-- .entry-header -->
+                  <div class="entry-content">
+                    <p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a ready-made text to sing with the melody. </p>
+                    <div class="more-link-container"> <a href="https://fortunedemo.wordpress.com/2015/01/15/we-have-moved-to-a-new-office/?demo" class="more-link">Read More <span class="screen-reader-text">“We Have Moved to a New&nbsp;Office”</span></a></div>
+                  </div>
+                  <!-- .entry-content -->
+                </article>
+                <!-- #post-## -->
+                <article id="post-198" class="post-198 post type-post status-publish format-quote has-post-thumbnail hentry category-wordpress tag-features tag-formats post_format-post-format-quote">
+                  <div class="entry-secondary-meta">
+                    <div class="post-date"><a href="https://fortunedemo.wordpress.com/2015/01/12/post-format-quote/?demo"><span class="day">12</span><span class="month">Jan</span></a></div>
+                  </div>
+                  <!-- .entry-date -->
+                  <div class="hentry-inner">
+                    <div class="entry-thumb" style="background-image: url( https://fortunedemo.files.wordpress.com/2011/09/tbn_22.jpg );"></div>
+                    <!-- .entry-thumb -->
+                    <header class="entry-header">
+                      <h2 class="entry-title"><a href="https://fortunedemo.wordpress.com/2015/01/12/post-format-quote/?demo" rel="bookmark">Post Format: Quote</a></h2>
+                      <div class="entry-meta">
+                        <span class="byline"> Posted by <span class="author vcard"><a class="url fn n" href="https://fortunedemo.wordpress.com/author/tarasdashkevych/?demo">Taras Dashkevych</a></span></span><span class="cat-links"> in <a href="https://fortunedemo.wordpress.com/category/wordpress/?demo" rel="category tag">WordPress</a></span>     
+                      </div>
+                      <!-- .entry-meta -->
+                    </header>
+                    <!-- .entry-header -->
+                    <div class="entry-content">
+                      <blockquote>
+                        <p>
+                          When you are courting a nice girl an hour seems like a second. When you sit on a red-hot cinder a second seems like an hour. That’s relativity.<br>
+                          <cite><a href="http://www.brainyquote.com/quotes/quotes/a/alberteins100656.html" target="_blank">Albert Einstein</a></cite>
+                        </p>
+                      </blockquote>
+                    </div>
+                    <!-- .entry-content -->
+                  </div>
+                  <!-- .hentry-inner -->
+                </article>
+                <!-- #post-## -->
+                <nav class="navigation pagination" role="navigation">
+                  <h2 class="screen-reader-text">Posts navigation</h2>
+                  <div class="nav-links"><span aria-current="page" class="page-numbers current">1</span>
+                    <a class="page-numbers" href="https://fortunedemo.wordpress.com/blog/page/2/?demo&amp;iframe=true&amp;theme_preview=true&amp;calypso_token=36eabb75-ddae-4a4f-8968-9ab76b5354f0">2</a>
+                    <a class="page-numbers" href="https://fortunedemo.wordpress.com/blog/page/3/?demo&amp;iframe=true&amp;theme_preview=true&amp;calypso_token=36eabb75-ddae-4a4f-8968-9ab76b5354f0">3</a>
+                    <a class="page-numbers" href="https://fortunedemo.wordpress.com/blog/page/4/?demo&amp;iframe=true&amp;theme_preview=true&amp;calypso_token=36eabb75-ddae-4a4f-8968-9ab76b5354f0">4</a>
+                    <a class="next page-numbers" href="https://fortunedemo.wordpress.com/blog/page/2/?demo&amp;iframe=true&amp;theme_preview=true&amp;calypso_token=36eabb75-ddae-4a4f-8968-9ab76b5354f0">Next</a>
+                  </div>
+                </nav>
+                <div id="infinite-handle"><span><button>Older posts</button></span></div>
+              </main>
+              <!-- #main -->
+            </div>
+            <!-- #primary -->
+            <div class="col-lg-4 col-md-4 sidebar-section">
+              <div id="secondary" class="widget-area" role="complementary">
+                <aside id="recent-posts-3" class="widget widget_recent_entries">
+                  <h4 class="widget-title">Recent Posts</h4>
+                  <ul>
+                    <li>
+                      <a href="https://fortunedemo.wordpress.com/2015/01/22/word-on-the-street/?demo">Word on the&nbsp;Street</a>
+                      <span class="post-date">January 22, 2015</span>
+                    </li>
+                    <li>
+                      <a href="https://fortunedemo.wordpress.com/2015/01/20/moonlight-mountain-hike/?demo">Moonlight Mountain Hike</a>
+                      <span class="post-date">January 20, 2015</span>
+                    </li>
+                    <li>
+                      <a href="https://fortunedemo.wordpress.com/2015/01/18/wordpress-com/?demo">WordPress.com</a>
+                      <span class="post-date">January 18, 2015</span>
+                    </li>
+                    <li>
+                      <a href="https://fortunedemo.wordpress.com/2015/01/15/we-have-moved-to-a-new-office/?demo">We Have Moved to a New&nbsp;Office</a>
+                      <span class="post-date">January 15, 2015</span>
+                    </li>
+                  </ul>
+                </aside>
+                <aside id="archives-3" class="widget widget_archive">
+                  <h4 class="widget-title">Archives</h4>
+                  <ul>
+                    <li><a href="https://fortunedemo.wordpress.com/2015/01/?demo">January 2015</a></li>
+                    <li><a href="https://fortunedemo.wordpress.com/2014/12/?demo">December 2014</a></li>
+                    <li><a href="https://fortunedemo.wordpress.com/2014/11/?demo">November 2014</a></li>
+                    <li><a href="https://fortunedemo.wordpress.com/2014/10/?demo">October 2014</a></li>
+                    <li><a href="https://fortunedemo.wordpress.com/2011/09/?demo">September 2011</a></li>
+                  </ul>
+                </aside>
+                <aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+                  <h4 class="widget-title">Twitter Widget</h4>
+                  <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" style="position: static; visibility: visible; display: inline-block; width: 300px; height: 300px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" data-widget-id="527612269799026689" title="Twitter Timeline"></iframe>
+                </aside>
+                <aside id="wp_tag_cloud-2" class="widget wp_widget_tag_cloud">
+                  <h4 class="widget-title">Tags</h4>
+                  <div style="overflow:hidden"><a href="https://fortunedemo.wordpress.com/tag/announcement/?demo" class="tag-cloud-link tag-link-290 tag-link-position-1" style="font-size: 17.333333333333pt;" aria-label="announcement (4 items)">announcement</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/features/?demo" class="tag-cloud-link tag-link-9548 tag-link-position-2" style="font-size: 20.833333333333pt;" aria-label="features (6 items)">features</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/formats/?demo" class="tag-cloud-link tag-link-105011 tag-link-position-3" style="font-size: 17.333333333333pt;" aria-label="formats (4 items)">formats</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/fun/?demo" class="tag-cloud-link tag-link-272 tag-link-position-4" style="font-size: 19.2pt;" aria-label="fun (5 items)">fun</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/location/?demo" class="tag-cloud-link tag-link-6418 tag-link-position-5" style="font-size: 20.833333333333pt;" aria-label="location (6 items)">location</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/nature/?demo" class="tag-cloud-link tag-link-1099 tag-link-position-6" style="font-size: 19.2pt;" aria-label="nature (5 items)">nature</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/panache/?demo" class="tag-cloud-link tag-link-2099222 tag-link-position-7" style="font-size: 8pt;" aria-label="panache (1 item)">panache</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/people/?demo" class="tag-cloud-link tag-link-660 tag-link-position-8" style="font-size: 22pt;" aria-label="people (7 items)">people</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/professional/?demo" class="tag-cloud-link tag-link-7830 tag-link-position-9" style="font-size: 17.333333333333pt;" aria-label="professional (4 items)">professional</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/winter/?demo" class="tag-cloud-link tag-link-9484 tag-link-position-10" style="font-size: 8pt;" aria-label="winter (1 item)">winter</a>
+                  </div>
+                </aside>
+                <aside id="text-3" class="widget widget_text">
+                  <h4 class="widget-title">Text Widget</h4>
+                  <div class="textwidget">Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</div>
+                </aside>
+              </div>
+              <!-- #secondary -->
+            </div>
+            <!-- .sidebar-section -->
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- #content -->
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <div id="gotop-button">
+          <a href="#" class="gotop"><span class="screen-reader-text">Go to the top</span></a>
+        </div>
+        <!-- #gotop-button -->
+        <div class="footer-widget-area container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 footer-widget">
+              <aside id="recent-posts-2" class="widget widget_recent_entries">
+                <h4 class="widget-title">Recent Posts</h4>
+                <ul>
+                  <li>
+                    <a href="https://fortunedemo.wordpress.com/2015/01/22/word-on-the-street/?demo">Word on the&nbsp;Street</a>
+                  </li>
+                  <li>
+                    <a href="https://fortunedemo.wordpress.com/2015/01/20/moonlight-mountain-hike/?demo">Moonlight Mountain Hike</a>
+                  </li>
+                  <li>
+                    <a href="https://fortunedemo.wordpress.com/2015/01/18/wordpress-com/?demo">WordPress.com</a>
+                  </li>
+                  <li>
+                    <a href="https://fortunedemo.wordpress.com/2015/01/15/we-have-moved-to-a-new-office/?demo">We Have Moved to a New&nbsp;Office</a>
+                  </li>
+                  <li>
+                    <a href="https://fortunedemo.wordpress.com/2015/01/12/post-format-quote/?demo">Post Format: Quote</a>
+                  </li>
+                </ul>
+              </aside>
+            </div>
+            <!-- .col -->
+            <div class="col-lg-4 col-md-4 footer-widget">
+              <aside id="archives-2" class="widget widget_archive">
+                <h4 class="widget-title">Archives</h4>
+                <ul>
+                  <li><a href="https://fortunedemo.wordpress.com/2015/01/?demo">January 2015</a></li>
+                  <li><a href="https://fortunedemo.wordpress.com/2014/12/?demo">December 2014</a></li>
+                  <li><a href="https://fortunedemo.wordpress.com/2014/11/?demo">November 2014</a></li>
+                  <li><a href="https://fortunedemo.wordpress.com/2014/10/?demo">October 2014</a></li>
+                  <li><a href="https://fortunedemo.wordpress.com/2011/09/?demo">September 2011</a></li>
+                </ul>
+              </aside>
+            </div>
+            <!-- .col -->
+            <div class="col-lg-4 col-md-4 footer-widget">
+              <aside id="text-2" class="widget widget_text">
+                <h4 class="widget-title">About Fortune</h4>
+                <div class="textwidget">
+                  <p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. Monocle ipsum dolor sit amet bespoke exclusive signature.</p>
+                  <strong>Address:</strong> 123 Street W, Seattle WA 99999<br>
+                  <strong>Phone:</strong> 123-456-7890
+                </div>
+              </aside>
+            </div>
+            <!-- .col -->     
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .footer-widget-area -->
+        <div class="footer-bottom">
+          <div class="container clearfix">
+            <div class="pull-left site-info">
+              <a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+            </div>
+            <!-- .site-info -->
+            <div class="pull-right social-links">
+              <div class="social-list">
+                <ul id="menu-social-menu-1" class="menu-items list-unstyled clearfix">
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108"><a href="https://www.facebook.com/" data-tip="Facebook" class="td-tooltip"><span class="screen-reader-text social-meta">Facebook</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107"><a href="https://twitter.com/TarasDashkevych" data-tip="Twitter" class="td-tooltip"><span class="screen-reader-text social-meta">Twitter</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-109"><a href="https://plus.google.com/" data-tip="Google Plus" class="td-tooltip"><span class="screen-reader-text social-meta">Google Plus</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113"><a href="https://www.linkedin.com/" data-tip="LinkedIn" class="td-tooltip"><span class="screen-reader-text social-meta">LinkedIn</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="http://instagram.com/" data-tip="Instagram" class="td-tooltip"><span class="screen-reader-text social-meta">Instagram</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://www.youtube.com/" data-tip="YouTube" class="td-tooltip"><span class="screen-reader-text social-meta">YouTube</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112"><a href="mailto:someone@example.com" data-tip="Email Us" class="td-tooltip"><span class="screen-reader-text social-meta">Email Us</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- .social-links -->
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- .site-info -->
+      </footer>
+      <!-- #colophon -->
+    </div>
+  
+    <!-- #page -->
+    <!--  -->
+    <script type='text/javascript' src='assets/js/gprofiles.js'></script>
+    <script type='text/javascript'>
+      /* <![CDATA[ */
+      var WPGroHo = {"my_hash":""};
+      /* ]]> */
+    </script>
+    <script type='text/javascript' src='assets/js/wpgroho.js'></script>
+    <script>
+      //initialize and attach hovercards to all gravatars
+      jQuery( document ).ready( function( $ ) {
+      
+      	if (typeof Gravatar === "undefined"){
+      		return;
+      	}
+      
+      	if ( typeof Gravatar.init !== "function" ) {
+      		return;
+      	}			
+      
+      	Gravatar.profile_cb = function( hash, id ) {
+      		WPGroHo.syncProfileData( hash, id );
+      	};
+      	Gravatar.my_hash = WPGroHo.my_hash;
+      	Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+      });
+    </script>
+    <div style="display:none">
+    </div>
+    <script type='text/javascript' src='assets/js/Webkit.js'></script>
+    <script src="assets/js/w.js" type="text/javascript" async defer></script>
+    <script type="text/javascript">
+      _tkq = window._tkq || [];
+      _stq = window._stq || [];
+      _tkq.push(['storeContext', {'blog_id':'83315134','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+      _stq.push(['view', {'blog':'83315134','v':'wpcom','tz':'0','user_id':'0','post':'133','subd':'fortunedemo'}]);
+      _stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1oV0pFNEwueXFaVXlyMGwvVG9bYmZXaDJ1NmxaNzJ2cyYwTl85emxZLnVULS15OCV8TjJoQXhDcjclOThnNkQlZmJQQ2NSSlkxeEdkSCZHcDN1VkUuWUV8aVAld29xdW4xR0NGfEhWZz9Ifk41N0RkSTZzNnduPUxCYW94bj1xTURmWnBuemhlamZLb0RLZDM5UnpUST9TS1s4VXo5ME1+LTZBLiVbYy1MX3puSVVNdEcyeGdYP0p4JjB5QjB5NlJPYUtPd3hPZDRyVVZbNS5KLjNoRX5vTXZVdjFldTF4THRhZU8rdFZGSA=='}]);
+      _stq.push([ 'clickTrackerInit', '83315134', '133' ]);
+      	
+    </script>
+    <noscript><img src="assets/images/b.gif" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+    <script>
+      if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+      
+      	wpcom_mobile_user_agent_info.init();
+      	var mobileStatsQueryString = "";
+      	
+      	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+      		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+      	
+      	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+      		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+      	
+      	if( wpcom_mobile_user_agent_info.isIPad() )
+      		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+      
+      	if( "" != mobileStatsQueryString ) {
+      		new Image().src = document.location.protocol + 'assets/images/g.gif' + mobileStatsQueryString + '&baba=' + Math.random();
+      	}
+      	
+      }
+    </script>
+  </body>
+</html>

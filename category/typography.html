@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fortune</title>    
+    <style type="text/css">
+      img.wp-smiley,
+      img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 .07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+      }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel='stylesheet' href='../assets/css/styles.css' type='text/css' media='all' />
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext' type='text/css' media='all' />
+
+    <link rel='stylesheet' href='../assets/css/bootstrap.css' type='text/css' media='all' />
+
+    <link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  </head>
+
+  <body class="page-template-default page page-id-126 custom-background mp6 customizer-styles-applied group-blog has-sidebar highlander-enabled highlander-light">
+    <div id="page" class="site">
+      <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+      <header id="masthead" class="site-header" role="banner" data-nav-title="Menu" style="height: auto;">
+        <div class="top-bar">
+          <div class="container clearfix">
+            <nav id="topbar-navigation" class="topbar-navigation pull-left" role="navigation">
+              <ul id="menu-top-menu" class="nav-bar l_tinynav1">
+                <li id="menu-item-128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-128"><a href="../index.html">Home</a></li>
+                <li id="menu-item-277" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-277">
+                  <a href="#">Categories</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-275" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-275"><a href="announcements.html">Announcements</a></li>
+                    <li id="menu-item-274" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-274"><a href="events.html">Events</a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-126 current_page_item menu-item-129"><a href="typography.html">Typography</a></li>
+              </ul>
+              <div class="mobile-menu">
+                <select id="tinynav1" class="tinynav tinynav1">
+                  <option>Menu</option>
+                  <option value="../index.html">Home</option>
+                  <option value="#">Categories</option>
+                  <option value="announcements.html">- Announcements</option>
+                  <option value="events.html">- Events</option>
+                  <option value="travel.html">- Travel</option>
+                  <option value="typography.html">Typography</option>                  
+                  <option value="#/contacts/">- Contact Us</option>
+                </select>
+              </div>
+            </nav>
+            <!-- #secondary-navigation -->
+            <div class="pull-right header-social">
+              <div class="social-list">
+                <ul id="menu-social-menu" class="menu-items list-unstyled clearfix">
+                  <li id="menu-item-108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108"><a href="https://www.facebook.com/" data-tip="Facebook" class="td-tooltip"><span class="screen-reader-text social-meta">Facebook</span></a></li>
+                  <li id="menu-item-107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107"><a href="https://twitter.com/TarasDashkevych" data-tip="Twitter" class="td-tooltip"><span class="screen-reader-text social-meta">Twitter</span></a></li>
+                  <li id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-109"><a href="https://plus.google.com/" data-tip="Google Plus" class="td-tooltip"><span class="screen-reader-text social-meta">Google Plus</span></a></li>
+                  <li id="menu-item-113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113"><a href="https://www.linkedin.com/" data-tip="LinkedIn" class="td-tooltip"><span class="screen-reader-text social-meta">LinkedIn</span></a></li>
+                  <li id="menu-item-110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="http://instagram.com/" data-tip="Instagram" class="td-tooltip"><span class="screen-reader-text social-meta">Instagram</span></a></li>
+                  <li id="menu-item-111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://www.youtube.com/" data-tip="YouTube" class="td-tooltip"><span class="screen-reader-text social-meta">YouTube</span></a></li>
+                  <li id="menu-item-112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112"><a href="mailto:someone@example.com" data-tip="Email Us" class="td-tooltip"><span class="screen-reader-text social-meta">Email Us</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- .header-social -->
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- .top-bar -->
+        <div id="header-inner" class="">
+          <div class="container clearfix site-header-inner">
+            <div class="site-branding pull-left">
+              <p class="site-title"><a href="../index.html" rel="home">Fortune</a></p>
+              <p class="site-description">Fortune is a clean, very flexible and fully responsive WordPress Theme, suited for businesses or non-profit organizations</p>
+            </div>
+            <!-- .site-branding -->
+            <div class="pull-right main-header-links">
+              <nav id="site-navigation" class="main-navigation pull-left" role="navigation">
+                <ul id="menu-main-menu" class="nav-bar l_tinynav2">
+                  <li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-165"><a href="../index.html">Home</a></li>
+                  <li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-240">
+                    <a href="../team.html">Team</a>
+                    <ul class="sub-menu">
+                      <li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="../team/alissa-ginter.html">Alissa Ginter</a></li>
+                      <li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242"><a href="../team/jason-durm.html">Jason Durm</a></li>
+                      <li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="../team/jessica-doe.html">Jessica Doe</a></li>
+                      <li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244"><a href="../team/robert-reus.html">Robert Reus</a></li>
+                    </ul>
+                  </li>
+                  <li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-266">
+                    <a href="../services.html">Our Services</a>
+                    <ul class="sub-menu">
+                      <li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="../services/architecture.html">Architecture</a></li>
+                      <li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="../services/design.html">Design</a></li>
+                    </ul>
+                  </li>
+                  <li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164"><a href="../blog.html">Blog</a></li>
+                  <li id="menu-item-212" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-212"><a href="../testimonial.html">Testimonial</a></li>
+                </ul>
+                <div class="mobile-menu">
+                  <select id="tinynav2" class="tinynav tinynav2">
+                    <option>Menu</option>
+                    <option value="../index.html">Home</option>
+                    <option value="../team.html">Team</option>
+                    <option value="../team/alissa-ginter.html">- Alissa Ginter</option>
+                    <option value="../team/jason-durm.html">- Jason Durm</option>
+                    <option value="../team/jessica-doe.html">- Jessica Doe</option>
+                    <option value="../team/robert-reus.html">- Robert Reus</option>
+                    <option value="../services.html">Our Services</option>
+                    <option value="../services/architecture.html">- Architecture</option>
+                    <option value="../services/design.html">- Design</option>
+                    <option value="../blog.html">Blog</option>
+                    <option value="../testimonial.html">Testimonial</option>
+                    <option value="#contacts/">- Contact Us</option>
+                  </select>
+                </div>
+              </nav>
+              <!-- #site-navigation -->
+              <div class="header-search-container pull-right">
+                <a id="header-search-button" href="#"><span class="screen-reader-text">Search box</span></a>
+                <form method="get" class="header-searchform form-inline" action="../" role="search">
+                  <div class="header-searchform-inner">
+                    <input type="text" id="s" class="field" placeholder="Search..." name="s" value="">
+                    <button type="submit" class="submit"><i class="fa fa-search"></i><span class="screen-reader-text">Search</span></button>
+                  </div>
+                  <!-- .header-searchform-inner -->
+                </form>
+                <!-- .header-searchform -->
+              </div>
+              <!-- .header-search-container -->
+            </div>
+            <!-- .main-header-links -->
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- #header-inner -->
+      </header>
+      <!-- #masthead -->
+      <div id="content" class="site-content">
+        <header id="primary-header" class="entry-header primary-hentry">
+          <div class="overlay"></div>
+          <div class="primary-hentry-inner">
+            <div class="container">
+              <h1 class="entry-title">Typography</h1>
+            </div>
+            <!-- .container -->
+          </div>
+          <!-- .primary-hentry-inner -->
+        </header>
+        <!-- .entry-header -->
+        <div class="container">
+          <div class="row">
+            <div id="primary" class="content-area col-lg-8 col-md-8">
+              <main id="main" class="site-main" role="main">
+                <article id="post-126" class="post-126 page type-page status-publish hentry">
+                  <div class="entry-content">
+                    <p>This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors.</p>
+                    <p>The core software is built by hundreds of community volunteers, and when you’re ready for more there are thousands of plugins and themes available to transform your site into almost anything you can imagine. Over 60 million people have chosen WordPress to power the place on the web they call “home” — we’d love you to join the family.</p>
+                    <p>WordPress started in 2003 with a single bit of code to enhance the typography of everyday writing and with fewer users than you can count on your fingers and toes. Since then it has grown to be the largest self-hosted blogging tool in the world, used on millions of sites and seen by tens of millions of people every day.</p>
+                    <p>Հայերեն</p>
+                    <p>Lorem Ipsum-ը տպագրության և տպագրական արդյունաբերության համար նախատեսված մոդելային տեքստ է: Սկսած 1500-ականներից` Lorem Ipsum-ը հանդիսացել է տպագրական արդյունաբերության ստանդարտ մոդելային տեքստ, ինչը մի անհայտ տպագրիչի կողմից տարբեր տառատեսակների օրինակների գիրք ստեղծելու ջանքերի արդյունք է: Այս տեքստը ոչ միայն կարողացել է գոյատևել հինգ դարաշրջան, այլև ներառվել է էլեկտրոնային տպագրության մեջ` մնալով էապես անփոփոխ: Այն հայտնի է դարձել 1960-ականներին Lorem Ipsum բովանդակող Letraset էջերի թողարկման արդյունքում, իսկ ավելի ուշ համակարգչային տպագրության այնպիսի ծրագրերի թողարկման հետևանքով, ինչպիսին է Aldus PageMaker-ը, որը ներառում է Lorem Ipsum-ի տարատեսակներ:</p>
+                    <p>Български</p>
+                    <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на електронни издания като е запазен почти без промяна. Популяризиран е през 60те години на 20ти век със издаването на Letraset листи, съдържащи Lorem Ipsum пасажи, популярен е и в наши дни във софтуер за печатни издания като Aldus PageMaker, който включва различни версии на Lorem Ipsum.</p>
+                    <p>Català</p>
+                    <p>Lorem Ipsum és un text de farciment usat per la indústria de la tipografia i la impremta. Lorem Ipsum ha estat el text estàndard de la indústria des de l’any 1500, quan un impressor desconegut va fer servir una galerada de text i la va mesclar per crear un llibre de mostres tipogràfiques. No només ha sobreviscut cinc segles, sinó que ha fet el salt cap a la creació de tipus de lletra electrònics, romanent essencialment sense canvis. Es va popularitzar l’any 1960 amb el llançament de fulls Letraset que contenien passatges de Lorem Ipsum, i més recentment amb programari d’autoedició com Aldus Pagemaker que inclou versions de Lorem Ipsum.</p>
+                    <p>Hrvatski</p>
+                    <p>Lorem Ipsum je jednostavno probni tekst koji se koristi u tiskarskoj i slovoslagarskoj industriji. Lorem Ipsum postoji kao industrijski standard još od 16-og stoljeća, kada je nepoznati tiskar uzeo tiskarsku galiju slova i posložio ih da bi napravio knjigu s uzorkom tiska. Taj je tekst ne samo preživio pet stoljeća, već se i vinuo u svijet elektronskog slovoslagarstva, ostajući u suštini nepromijenjen. Postao je popularan tijekom 1960-ih s pojavom Letraset listova s odlomcima Lorem Ipsum-a, a u skorije vrijeme sa software-om za stolno izdavaštvo kao što je Aldus PageMaker koji također sadrži varijante Lorem Ipsum-a.</p>
+                    <p>Česky</p>
+                    <p>Lorem Ipsum je demonstrativní výplňový text používaný v tiskařském a knihařském průmyslu. Lorem Ipsum je považováno za standard v této oblasti už od začátku 16. století, kdy dnes neznámý tiskař vzal kusy textu a na jejich základě vytvořil speciální vzorovou knihu. Jeho odkaz nevydržel pouze pět století, on přežil i nástup elektronické sazby v podstatě beze změny. Nejvíce popularizováno bylo Lorem Ipsum v šedesátých letech 20. století, kdy byly vydávány speciální vzorníky s jeho pasážemi a později pak díky počítačovým DTP programům jako Aldus PageMaker.</p>
+                    <p>Româna</p>
+                    <p>Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a crea o carte demonstrativă pentru literele respective. Nu doar că a supravieţuit timp de cinci secole, dar şi a facut saltul în tipografia electronică practic neschimbată. A fost popularizată în anii ’60 odată cu ieşirea colilor Letraset care conţineau pasaje Lorem Ipsum, iar mai recent, prin programele de publicare pentru calculator, ca Aldus PageMaker care includeau versiuni de Lorem Ipsum.</p>
+                    <p>Српски</p>
+                    <p>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се. Популаризован је шездесетих година двадесетог века заједно са листовима летерсета који су садржали Lorem Ipsum пасусе, а данас са софтверским пакетом за прелом као што је Aldus PageMaker који је садржао Lorem Ipsum верзије.</p>
+                    <p>Українська</p>
+                    <p>Lorem ipsum — класичний варіант умовного беззмістовного тексту, що вставляється в макет сторінки (у сленгу дизайнерів такий текст називається «рибою»). Lorem ipsum — це перекручений уривок з філософського трактату Цицерона «Про межі добра і зла», написаного в 45 році до нашої ери латинською мовою. З точки зору зручності сприйняття друкованих текстів Lorem ipsum показує, що латинська графіка найслушніше пристосовується для написання саме творів латинською мовою (тут враховується частота вживання символів з виносними елементам, таких як g, l, h, p).</p>
+                    <h1>This is a heading 1</h1>
+                    <p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content.</p>
+                    <h2>This is a heading 2</h2>
+                    <p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content.</p>
+                    <h3>This is a heading 3</h3>
+                    <p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content.</p>
+                    <h4>This is a heading 4</h4>
+                    <p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content.</p>
+                    <h5>This is a heading 5</h5>
+                    <p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content.</p>
+                    <h6>This is a heading 6</h6>
+                    <p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content.</p>
+                    <h3>Quote</h3>
+                    <p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a ‘ready-made’ text to sing with the melody.</p>
+                    <blockquote>
+                      <p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
+                    </blockquote>
+                    <p>This is required when, for example, the final text is not yet available. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a ‘ready-made’ text to sing with the melody. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content.</p>
+                    <h3>Unordered List</h3>
+                    <p><strong>There are five major oceans of the world:</strong></p>
+                    <ul>
+                      <li>Pacific Ocean</li>
+                      <li>Atlantic Ocean</li>
+                      <li>Indian Ocean</li>
+                      <li>Southern Ocean</li>
+                      <li>Arctic Ocean</li>
+                    </ul>
+                    <h3>Ordered List</h3>
+                    <p><strong>List of United States cities by population:</strong></p>
+                    <ol>
+                      <li>New York</li>
+                      <li>Los Angeles</li>
+                      <li>Chicago</li>
+                      <li>Houston</li>
+                      <li>Philadelphia</li>
+                    </ol>
+                    <h3>Links</h3>
+                    <p>WordPress started in 2003 with a single bit of code to enhance the <a href="https://fortunedemo.wordpress.com/typography.html">typography</a> of everyday writing and with fewer users than you can count on your fingers and toes. Since then it has grown to be the largest self-hosted <a href="http://wordpress.org/" target="_blank">blogging</a> tool in the world, used on millions of sites and seen by tens of millions of people every day.</p>
+                    <h3>Emphasized Text</h3>
+                    <p>The core software is built by hundreds of community volunteers, and when you’re ready for more there are thousands of <em>plugins and themes</em> available to transform your site into almost anything you can imagine.</p>
+                    <h3>Strong Text</h3>
+                    <p>Over 60 million people have chosen <strong>WordPress</strong> to power the place on the web they call “home” — we’d love you to join the family.</p>
+                    <h3>Pre Tag</h3>
+                    
+                    <h3>Table Example</h3>
+                    <h4>Default Table</h4>
+                    <p>Add <strong>.table</strong> class to your <code>&lt;table&gt;</code>.</p>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>City</th>
+                            <th>Time</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>Bob Smith</td>
+                            <td>London</td>
+                            <td>1 P.M.</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>John Smith</td>
+                            <td>New York</td>
+                            <td>3 P.M.</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>Kate Smith</td>
+                            <td>Seattle</td>
+                            <td>9 A.M.</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>Anna Smith</td>
+                            <td>Portland</td>
+                            <td>11 A.M.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <h4>Striped rows</h4>
+                    <p>Add <strong>.table</strong> and <strong>.table-striped</strong> classes to your <code>&lt;table&gt;</code>.</p>
+                    <div class="table-responsive">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>City</th>
+                            <th>Time</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>Bob Smith</td>
+                            <td>London</td>
+                            <td>1 P.M.</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>John Smith</td>
+                            <td>New York</td>
+                            <td>3 P.M.</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>Kate Smith</td>
+                            <td>Seattle</td>
+                            <td>9 A.M.</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>Anna Smith</td>
+                            <td>Portland</td>
+                            <td>11 A.M.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <h4>Bordered table</h4>
+                    <p>Add <strong>.table</strong> and <strong>.table-bordered</strong> classes to your <code>&lt;table&gt;</code>.</p>
+                    <div class="table-responsive">
+                      <table class="table table-bordered">
+                        <thead>
+                          <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>City</th>
+                            <th>Time</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>Bob Smith</td>
+                            <td>London</td>
+                            <td>1 P.M.</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>John Smith</td>
+                            <td>New York</td>
+                            <td>3 P.M.</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>Kate Smith</td>
+                            <td>Seattle</td>
+                            <td>9 A.M.</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>Anna Smith</td>
+                            <td>Portland</td>
+                            <td>11 A.M.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <p>&nbsp;</p>
+                  </div>
+                  <!-- .entry-content -->
+                  <footer class="entry-footer">
+                  </footer>
+                  <!-- .entry-footer -->
+                </article>
+                <!-- #post-## -->
+              </main>
+              <!-- #main -->
+            </div>
+            <!-- #primary -->
+            <div class="col-lg-4 col-md-4 sidebar-section">
+              <div id="secondary" class="widget-area" role="complementary">
+                <aside id="recent-posts-3" class="widget widget_recent_entries">
+                  <h4 class="widget-title">Recent Posts</h4>
+                  <ul>
+                    <li>
+                      <a href="https://fortunedemo.wordpress.com/2015/01/22/word-on-the-street.html">Word on the&nbsp;Street</a>
+                      <span class="post-date">January 22, 2015</span>
+                    </li>
+                    <li>
+                      <a href="https://fortunedemo.wordpress.com/2015/01/20/moonlight-mountain-hike/?demo">Moonlight Mountain Hike</a>
+                      <span class="post-date">January 20, 2015</span>
+                    </li>
+                    <li>
+                      <a href="https://fortunedemo.wordpress.com/2015/01/18/wordpress-com/?demo">WordPress.com</a>
+                      <span class="post-date">January 18, 2015</span>
+                    </li>
+                    <li>
+                      <a href="https://fortunedemo.wordpress.com/2015/01/15/we-have-moved-to-a-new-office/?demo">We Have Moved to a New&nbsp;Office</a>
+                      <span class="post-date">January 15, 2015</span>
+                    </li>
+                  </ul>
+                </aside>
+                <aside id="archives-3" class="widget widget_archive">
+                  <h4 class="widget-title">Archives</h4>
+                  <ul>
+                    <li><a href="https://fortunedemo.wordpress.com/2015/01/?demo">January 2015</a></li>
+                    <li><a href="https://fortunedemo.wordpress.com/2014/12/?demo">December 2014</a></li>
+                    <li><a href="https://fortunedemo.wordpress.com/2014/11/?demo">November 2014</a></li>
+                    <li><a href="https://fortunedemo.wordpress.com/2014/10/?demo">October 2014</a></li>
+                    <li><a href="https://fortunedemo.wordpress.com/2011/09/?demo">September 2011</a></li>
+                  </ul>
+                </aside>
+                <aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+                  <h4 class="widget-title">Twitter Widget</h4>
+                  <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" style="position: static; visibility: visible; display: inline-block; width: 300px; height: 300px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" data-widget-id="527612269799026689" title="Twitter Timeline"></iframe>
+                </aside>
+                <aside id="wp_tag_cloud-2" class="widget wp_widget_tag_cloud">
+                  <h4 class="widget-title">Tags</h4>
+                  <div style="overflow:hidden"><a href="https://fortunedemo.wordpress.com/tag/announcement/?demo" class="tag-cloud-link tag-link-290 tag-link-position-1" style="font-size: 17.333333333333pt;" aria-label="announcement (4 items)">announcement</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/features/?demo" class="tag-cloud-link tag-link-9548 tag-link-position-2" style="font-size: 20.833333333333pt;" aria-label="features (6 items)">features</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/formats/?demo" class="tag-cloud-link tag-link-105011 tag-link-position-3" style="font-size: 17.333333333333pt;" aria-label="formats (4 items)">formats</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/fun/?demo" class="tag-cloud-link tag-link-272 tag-link-position-4" style="font-size: 19.2pt;" aria-label="fun (5 items)">fun</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/location/?demo" class="tag-cloud-link tag-link-6418 tag-link-position-5" style="font-size: 20.833333333333pt;" aria-label="location (6 items)">location</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/nature/?demo" class="tag-cloud-link tag-link-1099 tag-link-position-6" style="font-size: 19.2pt;" aria-label="nature (5 items)">nature</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/panache/?demo" class="tag-cloud-link tag-link-2099222 tag-link-position-7" style="font-size: 8pt;" aria-label="panache (1 item)">panache</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/people/?demo" class="tag-cloud-link tag-link-660 tag-link-position-8" style="font-size: 22pt;" aria-label="people (7 items)">people</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/professional/?demo" class="tag-cloud-link tag-link-7830 tag-link-position-9" style="font-size: 17.333333333333pt;" aria-label="professional (4 items)">professional</a>
+                    <a href="https://fortunedemo.wordpress.com/tag/winter/?demo" class="tag-cloud-link tag-link-9484 tag-link-position-10" style="font-size: 8pt;" aria-label="winter (1 item)">winter</a>
+                  </div>
+                </aside>
+                <aside id="text-3" class="widget widget_text">
+                  <h4 class="widget-title">Text Widget</h4>
+                  <div class="textwidget">Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</div>
+                </aside>
+              </div>
+              <!-- #secondary -->
+            </div>
+            <!-- .sidebar-section -->
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- #content -->
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <div id="gotop-button">
+          <a href="#" class="gotop"><span class="screen-reader-text">Go to the top</span></a>
+        </div>
+        <!-- #gotop-button -->
+        <div class="footer-widget-area container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 footer-widget">
+              <aside id="recent-posts-2" class="widget widget_recent_entries">
+                <h4 class="widget-title">Recent Posts</h4>
+                <ul>
+                  <li>
+                    <a href="https://fortunedemo.wordpress.com/2015/01/22/word-on-the-street/?demo">Word on the&nbsp;Street</a>
+                  </li>
+                  <li>
+                    <a href="https://fortunedemo.wordpress.com/2015/01/20/moonlight-mountain-hike/?demo">Moonlight Mountain Hike</a>
+                  </li>
+                  <li>
+                    <a href="https://fortunedemo.wordpress.com/2015/01/18/wordpress-com/?demo">WordPress.com</a>
+                  </li>
+                  <li>
+                    <a href="https://fortunedemo.wordpress.com/2015/01/15/we-have-moved-to-a-new-office/?demo">We Have Moved to a New&nbsp;Office</a>
+                  </li>
+                  <li>
+                    <a href="https://fortunedemo.wordpress.com/2015/01/12/post-format-quote/?demo">Post Format: Quote</a>
+                  </li>
+                </ul>
+              </aside>
+            </div>
+            <!-- .col -->
+            <div class="col-lg-4 col-md-4 footer-widget">
+              <aside id="archives-2" class="widget widget_archive">
+                <h4 class="widget-title">Archives</h4>
+                <ul>
+                  <li><a href="https://fortunedemo.wordpress.com/2015/01/?demo">January 2015</a></li>
+                  <li><a href="https://fortunedemo.wordpress.com/2014/12/?demo">December 2014</a></li>
+                  <li><a href="https://fortunedemo.wordpress.com/2014/11/?demo">November 2014</a></li>
+                  <li><a href="https://fortunedemo.wordpress.com/2014/10/?demo">October 2014</a></li>
+                  <li><a href="https://fortunedemo.wordpress.com/2011/09/?demo">September 2011</a></li>
+                </ul>
+              </aside>
+            </div>
+            <!-- .col -->
+            <div class="col-lg-4 col-md-4 footer-widget">
+              <aside id="text-2" class="widget widget_text">
+                <h4 class="widget-title">About Fortune</h4>
+                <div class="textwidget">
+                  <p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. Monocle ipsum dolor sit amet bespoke exclusive signature.</p>
+                  <strong>Address:</strong> 123 Street W, Seattle WA 99999<br>
+                  <strong>Phone:</strong> 123-456-7890
+                </div>
+              </aside>
+            </div>
+            <!-- .col -->     
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- .footer-widget-area -->
+        <div class="footer-bottom">
+          <div class="container clearfix">
+            <div class="pull-left site-info">
+              <a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+            </div>
+            <!-- .site-info -->
+            <div class="pull-right social-links">
+              <div class="social-list">
+                <ul id="menu-social-menu-1" class="menu-items list-unstyled clearfix">
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108"><a href="https://www.facebook.com/" data-tip="Facebook" class="td-tooltip"><span class="screen-reader-text social-meta">Facebook</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107"><a href="https://twitter.com/TarasDashkevych" data-tip="Twitter" class="td-tooltip"><span class="screen-reader-text social-meta">Twitter</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-109"><a href="https://plus.google.com/" data-tip="Google Plus" class="td-tooltip"><span class="screen-reader-text social-meta">Google Plus</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113"><a href="https://www.linkedin.com/" data-tip="LinkedIn" class="td-tooltip"><span class="screen-reader-text social-meta">LinkedIn</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="http://instagram.com/" data-tip="Instagram" class="td-tooltip"><span class="screen-reader-text social-meta">Instagram</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://www.youtube.com/" data-tip="YouTube" class="td-tooltip"><span class="screen-reader-text social-meta">YouTube</span></a></li>
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112"><a href="mailto:someone@example.com" data-tip="Email Us" class="td-tooltip"><span class="screen-reader-text social-meta">Email Us</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- .social-links -->
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- .site-info -->
+      </footer>
+      <!-- #colophon -->
+    </div>
+    <!-- #page -->
+    <!--  -->
+    <script type='text/javascript' src='../assets/js/gprofiles.js'></script>
+    <script type='text/javascript'>
+      /* <![CDATA[ */
+      var WPGroHo = {"my_hash":""};
+      /* ]]> */
+    </script>
+    <script type='text/javascript' src='../assets/js/wpgroho.js'></script>
+    <script>
+      //initialize and attach hovercards to all gravatars
+      jQuery( document ).ready( function( $ ) {
+      
+      	if (typeof Gravatar === "undefined"){
+      		return;
+      	}
+      
+      	if ( typeof Gravatar.init !== "function" ) {
+      		return;
+      	}			
+      
+      	Gravatar.profile_cb = function( hash, id ) {
+      		WPGroHo.syncProfileData( hash, id );
+      	};
+      	Gravatar.my_hash = WPGroHo.my_hash;
+      	Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+      });
+    </script>
+    <div style="display:none">
+    </div>
+    <script type='text/javascript' src='../assets/js/Webkit.js'></script>
+    <script src="../assets/js/w.js" type="text/javascript" async defer></script>
+    <script type="text/javascript">
+      _tkq = window._tkq || [];
+      _stq = window._stq || [];
+      _tkq.push(['storeContext', {'blog_id':'83315134','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+      _stq.push(['view', {'blog':'83315134','v':'wpcom','tz':'0','user_id':'0','post':'133','subd':'fortunedemo'}]);
+      _stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1oV0pFNEwueXFaVXlyMGwvVG9bYmZXaDJ1NmxaNzJ2cyYwTl85emxZLnVULS15OCV8TjJoQXhDcjclOThnNkQlZmJQQ2NSSlkxeEdkSCZHcDN1VkUuWUV8aVAld29xdW4xR0NGfEhWZz9Ifk41N0RkSTZzNnduPUxCYW94bj1xTURmWnBuemhlamZLb0RLZDM5UnpUST9TS1s4VXo5ME1+LTZBLiVbYy1MX3puSVVNdEcyeGdYP0p4JjB5QjB5NlJPYUtPd3hPZDRyVVZbNS5KLjNoRX5vTXZVdjFldTF4THRhZU8rdFZGSA=='}]);
+      _stq.push([ 'clickTrackerInit', '83315134', '133' ]);
+      	
+    </script>
+    <noscript><img src="../assets/images/b.gif" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+    <script>
+      if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+      
+      	wpcom_mobile_user_agent_info.init();
+      	var mobileStatsQueryString = "";
+      	
+      	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+      		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+      	
+      	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+      		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+      	
+      	if( wpcom_mobile_user_agent_info.isIPad() )
+      		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+      
+      	if( "" != mobileStatsQueryString ) {
+      		new Image().src = document.location.protocol + '../assets/images/g.gif' + mobileStatsQueryString + '&baba=' + Math.random();
+      	}
+      	
+      }
+    </script>
+  </body>
+</html>
